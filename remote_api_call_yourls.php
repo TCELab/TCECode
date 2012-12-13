@@ -39,7 +39,7 @@ function ($urlToShrink){
     $data = curl_exec($ch);
     curl_close($ch);
     
-    // Do something with the result. Here, we just echo it.
+    // Return the result back.
     return $data;
 
 }
