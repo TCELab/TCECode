@@ -14,7 +14,7 @@ function url_to_shrink($urlToShrink){
     
     // EDIT THIS: the query parameters
     $url = $urlToShrink;
-    $keyword = 'ozh';        	// optional keyword
+    $keyword = '';        	// optional keyword write if you have a specific keyword as URL in mind.
     $format = 'json';				// output format: 'json', 'xml' or 'simple'
     
     // EDIT THIS: the URL of the API file
