@@ -7,14 +7,14 @@
  * remote HTTP request to the server the request originates from.
  */
 
-function ($urlToShrink){
+function url_to_shrink($urlToShrink){
 // EDIT THIS: your auth parameters
     $username = '<Username As Defined In Config.php File of YouRLS installation>';
     $password = '<Password As Defined In Config.php File of YouRLS installation>';
     
     // EDIT THIS: the query parameters
     $url = $urlToShrink;
-    $keyword = 'ozh';    		// optional keyword
+    $keyword = 'ozh';        	// optional keyword
     $format = 'json';				// output format: 'json', 'xml' or 'simple'
     
     // EDIT THIS: the URL of the API file
@@ -43,5 +43,6 @@ function ($urlToShrink){
     return $data;
 
 }
-    
+$urlToShrink = '<URLToShrink>';
+echo  url_to_shrink($urlToShrink);
 ?>
