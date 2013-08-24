@@ -29,4 +29,3 @@ do
     mysqldump -u $MyUSER -h $MyHOST -p$MyPASS --complete-insert $db | gzip -9 > $FILE
     echo "Backup $FILE.....DONE"
 done
-- See more at: http://4rapiddev.com/mysql/shell-script-backup-all-mysql-databases-in-linux/#sthash.hQ52F2iO.dpuf
